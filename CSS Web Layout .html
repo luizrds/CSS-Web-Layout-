@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.header, .footer {
+  background-color: #3B5998;
+  color: white;
+  padding: 1px;
+}
+
+.column {
+  float: left;
+  padding: 15px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.menu {
+  width: 25%;
+}
+
+.content {
+  width: 75%;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 40;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 8px;
+  background-color: #8B9DC3;
+  color: #ffffff;
+}
+
+.menu li:hover {
+  background-color: rgb(86, 99, 126);
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Facebook</h1>
+</div>
+
+<div class="clearfix">
+  <div class="column menu">
+    <ul>
+      <li>Email</li>
+      <li>Senha</li>
+      <li>Entrar</li>
+      <li>Esqueci a senha</li>
+    </ul>
+  </div>
+
+  <div class="column content">
+    <h1>Facebook</h1>
+    <p>Facebook é uma mídia social e rede social virtual lançada em 4 de fevereiro de 2004, operado e de propriedade privada da Facebook Inc.. Em 4 de outubro de 2012, o Facebook atingiu a marca de 1 bilhão de usuários ativos, sendo por isso a maior rede social virtual em todo o mundo..</p>
+    <p>Crie uma conta ou entre. Conecte-se com amigos, familiares e outras pessoas.</p>
+  </div>
+  </div>
+
+</div>
+
+<div class="footer">
+  <p>Facebook © 2020</p>
+</div>
+
+</body>
+</html>
